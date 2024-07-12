@@ -74,10 +74,13 @@ function About() {
                 <p>Web Designer,</p>
               </div>
               <div className="about-text-lower">
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Front-End</p>
+                <p>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span style={{ color: "#C86161" }}>Front-End</span>
+                </p>
               </div>
               <div className="about-text-lower">
-                <p>&nbsp;Developer&nbsp;&nbsp;&nbsp; &</p>
+                <p>&nbsp;Developer&nbsp;&nbsp;&nbsp;&</p>
               </div>
               <div className="about-text-lower">
                 <p>
