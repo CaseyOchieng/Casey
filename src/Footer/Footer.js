@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "./Footer.css";
 function Footer() {
   function getCurrentYear() {
@@ -40,10 +41,18 @@ function Footer() {
           <div className="footer-menu social-links">
             <div className="footer-menu-h social-links-h">Other Menu</div>
             <div className="footer-menu-links social-links-items">
-              <p className="footer-menu-links-items">Home.</p>
-              <p className="footer-menu-links-items">About.</p>
-              <p className="footer-menu-links-items">Projects.</p>
-              <p className="footer-menu-links-items">Contact.</p>
+              <Link to="/" className="footer-menu-links-items">
+                Home.
+              </Link>
+              <Link to="/about" className="footer-menu-links-items">
+                About.
+              </Link>
+              <Link to="/projects" className="footer-menu-links-items">
+                Projects.
+              </Link>
+              <Link to="/contact" className="footer-menu-links-items">
+                Contact.
+              </Link>
             </div>
           </div>
           <div className="footer-btn">
