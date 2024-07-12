@@ -11,25 +11,28 @@ function Footer() {
       <div className="footer">
         <div className="footer-container">
           <div className="message-for-users">
-            <span>
-              Please contact me in any way <br /> you like
-            </span>
+            <span>Please contact me in any way you prefer</span>
           </div>
           <div className="social-links">
             <div className="social-links-h">Social</div>
             <div className="social-links-items">
-              <a href="">Facebook</a>
-              <a href="">Instagram</a>
-              <a href="">Twitter</a>
-              <a href="">Github</a>
-              <a href="">LinkedIn</a>
+              <a href="https://www.instagram.com/casey_chieng">Instagram</a>
+              <a href="https://x.com/ForgeTwoy">Twitter</a>
+              <a href="https://github.com/CaseyOchieng">Github</a>
+              <a href="https://www.linkedin.com/in/casey-ochieng-303330247/">
+                LinkedIn
+              </a>
             </div>
           </div>
           <div className="social-links">
             <div className="social-links-h">Contact</div>
             <div className="social-links-items">
-              <a href="">Mail</a>
-              <a href="">Whatsapp</a>
+              <a href="mailto:caseyochieng46@gmail.com">Gmail</a>{" "}
+              <a href="https://www.linkedin.com/in/casey-ochieng-303330247/">
+                LinkedIn
+              </a>{" "}
+              <a href="https://www.instagram.com/casey_chieng">Instagram</a>
+              <a href="https://github.com/CaseyOchieng">Github</a>
               {/* <a href="">Telegram</a> */}
               {/* <a href="">+92 302 4606680</a> */}
             </div>
@@ -44,7 +47,10 @@ function Footer() {
             </div>
           </div>
           <div className="footer-btn">
-            <a href="" className="footer-btn-a">
+            <a
+              href="https://www.linkedin.com/in/casey-ochieng-303330247/"
+              className="footer-btn-a"
+            >
               Get Started!
             </a>
           </div>
@@ -54,31 +60,38 @@ function Footer() {
             <p>Kenya</p>
           </div>
           <div className="right-footer-bottom">
-            <p>{getCurrentYear()}. Casey Ochieng. ALL RIGHT RESERVED</p>
+            <p>
+              {getCurrentYear()}.{" "}
+              <a
+                href="https://www.linkedin.com/in/casey-ochieng-303330247/"
+                style={{ color: "pink" }}
+              >
+                Casey Ochieng.
+              </a>{" "}
+              ALL RIGHT RESERVED
+            </p>
           </div>
         </div>
       </div>
       <div className="footer-ticker">
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
         <div className="footer-ticker-item">&nbsp; - Web Designer </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
-        <div className="footer-ticker-item">&nbsp; - Taimoor shahzada </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Developer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Digital Marketer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Developer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Designer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Developer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Digital Marketer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Developer </div>
+        <div className="footer-ticker-item">&nbsp; - Casey Ochieng </div>
+        <div className="footer-ticker-item">&nbsp; - Web Designer </div>
       </div>
     </div>
   );

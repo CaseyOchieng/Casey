@@ -38,7 +38,7 @@ function Home() {
   }, [timeline_home]);
   return (
     <div className="home">
-      1 <Header timeline={timeline_home} />
+      <Header timeline={timeline_home} />
       <div className="container">
         <div className="container1">
           <div className="txt-line" id="Casey">
