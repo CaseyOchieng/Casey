@@ -111,11 +111,6 @@ function About() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
                 cupiditate!
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum,
-                dolorum. <br /> Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Aut, nemo!
-              </p>
             </div>
             <div className="about-container-flower">
               <img src={flower} alt="" />
